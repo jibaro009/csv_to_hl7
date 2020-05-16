@@ -11,7 +11,7 @@ var hl7_message = [];
 function fhs() {
     var fhs_segment = [];
     fhs_segment.push('FHS');                                         
-    fhs_segment.push('^~\&');                                           //FHS-2
+    fhs_segment.push('^~\\&#');                                         //FHS-2
     fhs_segment.push('BEJ^2.16.840.1.113883.3.5917.2^ISO');             //FHS-3  //from csv
     fhs_segment.push('BEJ Lab^2.16.840.1.113883.3.5917.2^ISO');         //FHS-4  //from csv
     fhs_segment.push('NCDPH NCEDSS^2.16.840.1.113883.3.591.3.1^ISO');   //FHS-5
@@ -25,7 +25,7 @@ function fhs() {
 function bhs() {
     var bhs_segment = [];
     bhs_segment.push('BHS');                                          
-    bhs_segment.push('^~\\&');                                          // BHS-2
+    bhs_segment.push('^~\\&#');                                         // BHS-2
     bhs_segment.push('BEJ^2.16.840.1.113883.3.5917.2^ISO');             // BHS-3 //from csv
     bhs_segment.push('NCDPH NCEDSS^2.16.840.1.113883.3.591.3.1^ISO');   // BHS-4
     bhs_segment.push('202004230100');                                   // BHS-5 //from csv
