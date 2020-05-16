@@ -1,2 +1,5 @@
 # Ignore HL7 output
 # hl7/
+
+# Ignore txt files
+*.txt
